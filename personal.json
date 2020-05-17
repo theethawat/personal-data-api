@@ -1,0 +1,287 @@
+{
+  "name": "Theethawat",
+  "surname": "Savastham",
+  "thaiName": "ธีร์ธวัช",
+  "thaiSurname": "สวาสดิ์ธรรม",
+  "nickname": "Tin",
+  "thaiNickname": "ติน",
+  "birthday": "7 Febuary 1998",
+  "hometowm": "Yala / Songkhla",
+  "email": {
+    "personal": "theethawat.s@outlook.co.th",
+    "work": "theethawat.s@theduckcreator.in.th",
+    "university": "5910110150@email.psu.ac.th"
+  },
+  "website": {
+    "personal": "https://theethawat.github.io",
+    "developing": "https://theduckcreator.in.th",
+    "work": ""
+  },
+  "socialMedia": {
+    "facebook": "https://facebook.com/tin.savastham",
+    "instagram": "https://instagram.com/tin_savastham",
+    "linkedin": "https://www.linkedin.com/in/theethawat-savastham-bb8493124/",
+    "github": "https://github.com/theethawat"
+  },
+  "school": [
+    "Mahavajiravudh School (Grade 7-8)",
+    "Benjamarachutit School Nakhonsithammarat (Grade 9 -12)"
+  ],
+  "university": {
+    "bachelor": {
+      "department": "Computer Engineering",
+      "faculty": "Faculty of Engineering",
+      "university": "Prince of Songkla University",
+      "campus": "Hatyai Camous",
+      "city": "Hatyai",
+      "province": "Songkhla",
+      "country": "Thailand",
+      "startYear": 2016,
+      "finishYear": "Present"
+    },
+    "master": {
+      "department": "",
+      "faculty": "",
+      "university": "",
+      "campus": "",
+      "city": "",
+      "province": "",
+      "country": "",
+      "startYear": "",
+      "finishYear": ""
+    },
+    "philosophy": {
+      "department": "",
+      "faculty": "",
+      "university": "",
+      "campus": "",
+      "city": "",
+      "province": "",
+      "country": "",
+      "startYear": "",
+      "finishYear": ""
+    }
+  },
+  "introduction": "Hello, my name is Theethawat Savastham, 22 years old computer engineering student from Prince of Songkla University Hatyai Campus. I has just coded basic C before but I come to the working coding world since 2017, I had code a program with C,Javascript, and PHP. In 2019 I have learn a new skill about Java,Kotlin and taking intermeiate using of Javascript like frontend programing with react , Firebase realtimeDB access and api providing with Express. Furthermore I have learn coding Android application by using Kotlin , Android MVVM and the new fancy of writing Android app to fullfilling my senoir graduation project.",
+  "project": {
+    "2016": [
+      {
+        "name": "Culture writing in Big Asia Site ",
+        "describe": " Culture program of my grade 12, I founded since 2016 but it was stop on middle of 2018. I had learn about hosting and wordpress with this.",
+        "stack": ["php", "wordpress", "hosting"],
+        "website": "",
+        "storySite": "",
+        "repository": ""
+      }
+    ],
+    "2017": [
+      {
+        "name": " Big Asia and Thailand Blog hub",
+        "describe": " PHP Programing for Big Asia and Thailand Blog hub Web Application and Fail",
+        "stack": ["php", "hosting"],
+        "website": "",
+        "storySite": "",
+        "repository": ""
+      }
+    ],
+    "2018": [
+      {
+        "name": " Thaileague Unofficial Web Application",
+        "describe": "PHP with Laravel programing about football program system and Fail again but it make a lot of programing techniques.",
+        "stack": ["php", "laravel"],
+        "website": "",
+        "storySite": "https://www.theduckcreator.in.th/work/2019/06/28/thaileagueapp.html",
+        "repository": "https://github.com/TheDuckCreator/thaileague-app"
+      },
+      {
+        "name": " QR Code Congratulation Project",
+        "describe": " make on PHP with Laravel to map a good wish with a random number",
+        "stack": ["php", "laravel"],
+        "website": "",
+        "storySite": "",
+        "repository": "https://github.com/theethawat/shopcongrat18"
+      },
+      {
+        "name": " Join Windows Insider Program ",
+        "describe": " Join Windows Insider Program to try a beta release version of Microsoft Windows on fast ring",
+        "stack": [],
+        "website": "",
+        "storySite": "",
+        "repository": ""
+      }
+    ],
+    "2019": [
+      {
+        "name": "The Duck Creator Website ",
+        "describe": "Create my personal site using Jekyll Static Site Generater",
+        "stack": ["jekyll", "gem", "github page"],
+        "website": "https://theduckcreator.in.th",
+        "storySite": "",
+        "repository": "https://github.com/TheDuckCreator/theduckcreator.github.io"
+      },
+      {
+        "name": "Offline Bike Event Registration ",
+        "describe": "Develop Offline Bike Event Registration and Water Monitoring Page - during internship on June 2019, co working with my collegue.",
+        "stack": [
+          "php",
+          "laravel",
+          "chart.js",
+          "windows server 2016",
+          "windows server 2003"
+        ],
+        "website": "",
+        "storySite": "",
+        "repository": ""
+      },
+      {
+        "name": "TheDuckCreator Development Server",
+        "describe": "Create Linux Virtual Machine for demonstration web server,firewall and program environment on Digital Ocean Droplet",
+        "stack": [
+          "javascript",
+          "bash",
+          "linux",
+          "nginx",
+          "ubuntu",
+          "node.js",
+          "apache2",
+          "docker",
+          "digitalocean"
+        ],
+        "website": "https://dev.theduckcreator.in.th/",
+        "storySite": "",
+        "repository": ""
+      },
+      {
+        "name": "You're flower/ Memory of Hatyai",
+        "describe": " Congratulation project for graduated student of Eng-PSU in September 2019, using code to search a good wish item. Write on Javascript, React and Firebase Realtime DB. That is the new programing language era for me.",
+        "stack": [
+          "javascript",
+          "react",
+          "firebase",
+          "realtime database",
+          "github page"
+        ],
+        "website": "https://theduckcreator.in.th/memoriesofhatyai",
+        "storySite": "",
+        "repository": "https://github.com/TheDuckCreator/memoriesofhatyai"
+      },
+      {
+        "name": "Ehealth For Personal Sensor Application",
+        "describe": " Android, Reactive X and Cloud Firestore application with Kotlin as my senior graduation project.",
+        "stack": [
+          "android",
+          "kotlin",
+          "reactivex",
+          "firebase",
+          "cloud firestore"
+        ],
+        "website": "https://theduckcreator.in.th/memoriesofhatyai",
+        "storySite": "",
+        "repository": "https://github.com/TheDuckCreator/memoriesofhatyai"
+      }
+    ],
+    "2020": [
+      {
+        "name": "PHR-Dashboard",
+        "describe": "Online Dashboard For E-health for Personal Sensor Application senior project",
+        "stack": ["react", "typescript", "firebase", "cloud firestore"],
+        "website": "https://cnr-ehealth.page/dashboard",
+        "storySite": "",
+        "repository": "https://github.com/theethawat/phr-dashboard"
+      },
+
+      {
+        "name": "Azure Infrastructure Demo",
+        "describe": "Demonstration virtual machine and cloud infrastructure on Microsoft Azurev for provide application",
+        "stack": ["azure", "nginx", "ubuntu", "node.js", "mongodb", "docker"],
+        "website": "https://cloud.theduckcreator.in.th",
+        "storySite": "",
+        "repository": ""
+      }
+    ]
+  },
+  "programingLanguage": {
+    "C": {
+      "skillPercent": 30,
+      "description": ""
+    },
+    "C++": {
+      "skillPercent": 0,
+      "description": ""
+    },
+    "C#": {
+      "skillPercent": 5,
+      "description": ""
+    },
+    "Go": {
+      "skillPercent": 0,
+      "description": ""
+    },
+    "Java": {
+      "skillPercent": 30,
+      "description": ""
+    },
+    "JavaScript": {
+      "skillPercent": 35,
+      "description": ""
+    },
+    "Kotlin": {
+      "skillPercent": 40,
+      "description": ""
+    },
+    "Linux Shell": {
+      "skillPercent": 30,
+      "description": ""
+    },
+    "PHP": {
+      "skillPercent": 35,
+      "description": ""
+    },
+    "Python": {
+      "skillPercent": 10,
+      "description": ""
+    },
+    "R": {
+      "skillPercent": 0,
+      "description": ""
+    },
+    "Ruby": {
+      "skillPercent": 5,
+      "description": ""
+    },
+    "Rust": {
+      "skillPercent": 0,
+      "description": ""
+    },
+    "Swift": {
+      "skillPercent": 0,
+      "description": ""
+    },
+    "SQL": {
+      "skillPercent": 20,
+      "description": ""
+    }
+  },
+  "skill": {
+    "Android": {
+      "skillPercent": 35,
+      "description": ""
+    },
+    "Node.js": {
+      "skillPercent": 30,
+      "description": ""
+    },
+    "React": {
+      "skillPercent": 45,
+      "description": ""
+    },
+    "Network Configing": {
+      "skillPercent": 25,
+      "description": ""
+    },
+    "DevOps": {
+      "skillPercent": 25,
+      "description": ""
+    }
+  }
+}
