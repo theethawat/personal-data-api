@@ -53,10 +53,28 @@ MongoClient.connect(url, (err, client) => {
   })
 
   // Get All Project Data
-  app.get("/project", (req, res) => {
+  app.get("/project/", (req, res) => {
     let allData = []
     db.collection("project")
       .find()
+      .forEach((data) => {
+        allData.push(data)
+      })
+      .then(() => {
+        res.json(allData)
+      })
+      .catch((err) => {
+        console.log("Error on All Project Finding" + err)
+      })
+  })
+
+  // Search Project on Specific Year
+  app.get("/project/:year", (req, res) => {
+    let allData = []
+    let searchYear = req.params.year
+    console.log(searchYear)
+    db.collection("project")
+      .find({ year: +searchYear })
       .forEach((data) => {
         allData.push(data)
       })
