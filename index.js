@@ -39,17 +39,32 @@ MongoClient.connect(url, (err, client) => {
       })
   })
 
+  // Get Introduce Myself Part
   app.get("/personal-data/introduce", (req, res) => {
     console.log("In Personal Data")
-    let output = db
-      .collection("personal")
+    db.collection("personal")
       .find()
       .forEach((doc) => {
-        let allData = doc
         res.json(doc.introduction)
       })
       .catch((err) => {
         console.log("On Persoanl Data Introduce get Error" + err)
+      })
+  })
+
+  // Get All Project Data
+  app.get("/project", (req, res) => {
+    let allData = []
+    db.collection("project")
+      .find()
+      .forEach((data) => {
+        allData.push(data)
+      })
+      .then(() => {
+        res.json(allData)
+      })
+      .catch((err) => {
+        console.log("Error on All Project Finding" + err)
       })
   })
 
