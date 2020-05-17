@@ -86,6 +86,39 @@ MongoClient.connect(url, (err, client) => {
       })
   })
 
+  //Search All Skill
+  app.get("/skill", (req, res) => {
+    let allData = []
+    db.collection("skill")
+      .find()
+      .forEach((data) => {
+        allData.push(data)
+      })
+      .then(() => {
+        res.json(allData)
+      })
+      .catch((err) => {
+        console.log("Error on All Skill Finding" + err)
+      })
+  })
+
+  //Search on University
+  app.get("/university/", (req, res) => {
+    let allData = []
+    db.collection("university")
+      .find()
+      .forEach((data) => {
+        allData.push(data)
+      })
+      .then(() => {
+        res.json(allData)
+      })
+      .catch((err) => {
+        console.log("Error on All University Finding" + err)
+      })
+  })
+
+  // Port Listening
   app.listen(port, () => {
     console.log("App Listen at port " + port)
   })
