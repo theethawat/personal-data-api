@@ -20,9 +20,37 @@ MongoClient.connect(url, (err, client) => {
   }
 
   const db = client.db("tdc_kitti")
-  let personalData = db.collection("personal").find({})
+
   app.get("/", (req, res) => {
     res.send("Server Running")
+  })
+
+  // Get Personal Data
+  app.get("/personal-data", (req, res) => {
+    console.log("In Personal Data")
+    let output = db
+      .collection("personal")
+      .find()
+      .forEach((doc) => {
+        res.json(doc)
+      })
+      .catch((err) => {
+        console.log("Error on Personal Data Get " + err)
+      })
+  })
+
+  app.get("/personal-data/introduce", (req, res) => {
+    console.log("In Personal Data")
+    let output = db
+      .collection("personal")
+      .find()
+      .forEach((doc) => {
+        let allData = doc
+        res.json(doc.introduction)
+      })
+      .catch((err) => {
+        console.log("On Persoanl Data Introduce get Error" + err)
+      })
   })
 
   app.listen(port, () => {
