@@ -23,7 +23,6 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm start
         env:
           ACCESS_USER_NAME: theethawat
           ACCESS_PASSWORD: ${{ secrets.TDC_KITTI_PASSWORD}}
