@@ -27,9 +27,9 @@ jobs:
           npm run test --if-present
           npm start
         env: |
-          ACCESS_USER_NAME=theethawat
-          ACCESS_PASSWORD=Tttt_2544
-          MONGO_URL=20.43.163.85:8020
+          ACCESS_USER_NAME: theethawat
+          ACCESS_PASSWORD: Tttt_2544
+          MONGO_URL: 20.43.163.85:8020
 
       - name: "Deploy to Azure Web App"
         uses: azure/webapps-deploy@v1
