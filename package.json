@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "demo": "node MongoDemo.js",
-    "start": "node index.js"
+    "start": "node index.js",
+    "demo": "node MongoDemo.js"
   },
   "keywords": [],
   "author": "Theethawat Savastham",
