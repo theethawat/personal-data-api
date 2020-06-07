@@ -16,7 +16,7 @@ let url =
   "@" +
   clusterURL +
   "/" +
-  "?retryWrites=true"
+  "?retryWrites=true&w=majority"
 console.log("Username " + username + "  Cluster URL " + clusterURL)
 // Access Control Origin
 app.use((req, res, next) => {
