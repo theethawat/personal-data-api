@@ -9,7 +9,7 @@ let password = process.env.ACCESS_PASSWORD
 let clusterURL = process.env.MONGO_URL
 let port = process.env.OUTPUT_PORT
 let url =
-  "mongodb://" +
+  "mongodb+srv://" +
   username +
   ":" +
   password +
