@@ -1,5 +1,15 @@
 const express = require('express')
+const MongoClient = require("mongodb").MongoClient
 const app = express.Router()
+const url = "mongodb://localhost:27017/"
+
+MongoClient.connect(url, (err, client) => {
+  if (err) {
+    console.log("Error  " + err)
+  }
+
+  const db = client.db("tdc_kitti")
+
 
   app.get("/", (req, res) => {
     res.send("Server Running")
@@ -52,5 +62,8 @@ const app = express.Router()
   app.get("/project/:year", (req, res) => {
     let allData = []
   })
+
+}
+)
 
  module.exports = app

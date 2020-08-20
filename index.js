@@ -29,18 +29,11 @@ app.use((req, res, next) => {
   next()
 })
 
-MongoClient.connect(url, (err, client) => {
-  if (err) {
-    console.log("Error  " + err)
-  }
-
-  	const db = client.db("tdc_kitti")
-
 	app.use("/api/",apiRouter)
  
 	// Port Listening
   	app.listen(port, () => {
     	console.log("App Listen at port " + port)
   	})
-})
+
 
